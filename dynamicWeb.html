@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="staticWeb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+
+</head>
+
+<body>
+    
+    <a class="back-link" href="services.html" target="_blank"><i class="fa-solid fa-arrow-left"></i>&nbsp; Go Back</a>
+
+    <div class="service-card " >
+        <div class="Card"><a href=""><img id="card-sec" src="Images/img2.jpeg" width="600px"
+            height="300px" alt=""></a></div>
+<div class="card-desc">
+    
+    Price: &nbsp;<span class="services-price">$18 <span class="desc-para"></span></span>
+    <span class="offer">&nbsp;&nbsp;&nbsp;&nbsp;62%Off</span><br>
+    
+</div>
+</div>
+    </div>
+    <h2>Fill both personal and professional details for place the Order</h2>
+    <div class="services-form">
+
+        <form action="/backend" class="orderForm">
+            <div class="personal-info"><br>
+                <h3>Personal Details</h3><br><br>
+                <label for="name">Full Name</label><br>
+                <input id="name" type="text" name="name" value="" required /><br><br>
+                <label for="email">Email</label><br>
+                <input id="email" type="email" name="email" value="" required /><br><br>
+                <label for="linkedin-profile">LinkedIn Profile</label><br>
+                <input id="linkedin-profile" type="text" name="" value="" required /><br><br>
+                <label for="phnNumber">Phone Number</label><br>
+                <input id="phnNumber" type="number" name="phnNumber" value="" required /><br><br>
+                <label for="place">Location:</label><br>
+                <input id="place" type="text" name="place" required><br><br>
+            </div>
+
+            <div class="professional-info">
+                <h3>Professional Details</h3><br><br>
+                <label for="company-name">Company Name</label><br>
+                <input id="company-name" type="text" name="company-name" value="" required /><br><br>
+                <label for="website-name">Website Name</label><br>
+
+                <input id="website-name" type="text" name="website-name" value="" required /><br><br>
+                <label for="business-email">Business Email</label><br>
+                <input id="business-email" type="text" name="email" value="" required /><br><br>
+                <label for="industry-type">Industy Type</label><br>
+                <input id="industry-type" type="text" name="" value="" required /><br><br>
+                <label for="employee-size">Employee Size</label><br>
+                <input id="employee-size" type="number" name="employee-size" value="" required />
+            </div>
+            <button  id="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="footer"></div>
+
+</body>
+
+</html>
